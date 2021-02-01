@@ -1,5 +1,5 @@
 import streamlit as st
-from models import RedditAlgo
+from app.models import RedditAlgo
 import plotly.express as px
 from datetime import datetime, timedelta
 
