@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import dash_cytoscape as cyto
 import dash_html_components as html
 
-stocks_list = ['GME', 'AMC', 'BB','NOK','TSLA','TWTR']
+stocks_list = ['GME', 'AMC', 'BB','NOK','TSLA']
 
 # Add a selectbox to the sidebar:
 stock_selectbox = st.sidebar.selectbox(
